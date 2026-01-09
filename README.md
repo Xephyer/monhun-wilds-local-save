@@ -8,9 +8,10 @@ Steps to set up:
 4. After the quotation marks (C:/Users/...) replace "C:\Users\YourName\Documents\MyFolder" with the location where you saved the bat file.
 5. Run the bat file. It should create a folder with date and time and inside is a copy of your save data.
 
-How it works (for nthose who don't know)
+How it works (for those who don't know)
+
 Line 1, Echo off, makes it so that the command line doesnt display the prompt. 
-Line 2 - 9 is basically getting the time on your computer (year-month-date_hour-minute-second) and use it as a name for the creation of folder
+Line 2 - 9 is basically getting the time on your computer (year-month-date_hour-minute-second) and use it as a name for the creation of folder.
 Line 11-13 creates the folder using the time stamp and additional folder inside as it is the strucutre of the folder save data.
 The last line basically copies the save data to the folder of your choosing.
 
